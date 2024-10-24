@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "vision-exercises"
+version = "0.1.0"
+description = ""
+authors = ["Robertleoj <robert.leo.jonsson@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "utils"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.10.0.84"
+pyrealsense2 = "^2.55.1.6486"
+matplotlib = "^3.9.2"
+einops = "^0.8.0"
+numba = "^0.60.0"
+tyro = "^0.8.14"
+mediapy = "^1.2.2"
+ipykernel = "^6.29.5"
+jupytext = "^1.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
