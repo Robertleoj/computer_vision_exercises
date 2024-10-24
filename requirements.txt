@@ -1,0 +1,10 @@
+opencv-python
+pyrealsense2
+numpy
+matplotlib
+einops
+numba
+tyro
+mediapy
+ipykernel
+jupytext
